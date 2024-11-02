@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: idroid ;
+    src: url(fontes/idroid.otf) format(ttf);
+}
+h1#titulo {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding-top:20px;
+    text-shadow: rgba(0, 0, 0, 0.24) 0 2px;
+
+}
+header {
+    background-image: linear-gradient(to bottom, rgb(1, 206, 127),rgb(0, 117, 68));
+    margin: 0;
+    height: 200px;
+    
+}
+body {
+    background-color: rgb(88, 221, 155);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+li > a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    padding-right: 40px;
+    padding-left: 0;
+    padding-top: 30px;
+}
+li {
+    display: inline;
+    padding-left: 40px;
+    margin: 0;
+    
+}
+#tituloheader {
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    
+}
+#li1 {
+    padding-left: 20px;
+}
+h1 {
+    font-family: sans-serif;
+    margin: 0;
+    color: rgb(0, 117, 68);
+}
+h2 {
+    color: rgb(0, 117, 68);
+    background-image: linear-gradient(to right,rgba(14, 155, 85, 0.295),rgba(0, 117, 68, 0));
+}
+article {
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    padding: 15px;
+}
+p {
+    text-indent: 30px;
+}
+strong {
+    color: rgb(0, 119, 73);
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 100, 62);
+}
+img {
+    margin: auto;
+    max-width: 690px;
+}
+#img1 {
+    padding-left: 25%;
+}
+div {
+    padding: 15px;
+    width: 700px;
+    margin: auto;
+    background-color: rgb(0, 128, 58);
+}
+iframe {
+    margin: auto;
+    padding-left:60px;
+}
+#artic {
+    margin: auto;
+}
+#divu {
+    background-color: rgb(196, 255, 220);
+    width: 640px;
+    margin: auto;
+}
+#aga3 {
+    color: rgb(112, 255, 176);
+    margin: auto;
+    width: 650px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+div > h3 {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background-color: rgb(0, 78, 39);
+    text-align: center;
+}

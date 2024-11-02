@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens flexiveis</title>
+</head>
+<body>
+    <h1>IMAGENS FLEXIVEIS</h1>  
+    <p>Nesse exercicio eu irei fazer imagens flexiveis usando a tag <br>
+         source media no exercicio</p>
+
+        <picture>
+            <source media="(max-width: 1000px)" srcset="imagens/foto-g.png" type="image/png">
+            <source media="(max-width: 250px)" srcset="imagens/foto-p.png" type="image/png">
+            <img src="imagens/foto-m.png" alt="imgflex">
+        </picture>
+</body>
+</html>

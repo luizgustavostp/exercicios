@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+}
+#div1 {
+    background-image: linear-gradient(to bottom, purple, white);
+    width: 200px;
+}
+.div2 {
+    color: purple;
+    marker: inherit;
+}
+.pdiv {
+    color: blue;
+}
+#btn1:hover {
+    color: black;
+    background-color: blueviolet;
+}
+#btn1 {
+    width: 200px;
+    height: 90px;
+}
+div > p {
+    display: none;
+}
+div:hover > p {
+    display: block;
+}

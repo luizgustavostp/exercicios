@@ -1,0 +1,185 @@
+@keyframes geral{
+    from{scale: 0.8;opacity: 0%;}
+    to{scale: 1;opacity: 100%;}
+}
+@font-face {
+    font-family: 'jetbrains';
+    src: url(../fontes/JetBrainsMono-Regular.ttf);
+}
+
+:root {
+    --cor1:#351B59;
+    --cor2:#8D69BF;
+    --cor3:#0D0126;
+    --cor4:#BFBFBF;
+    --cor5:#262626;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+li {
+    margin-right: 36px;
+    margin-top: 50px;
+    color: rgb(223, 223, 223);
+    font-family: "Rethink Sans", sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
+    transition: 150ms ease;
+    
+}
+nav {
+    padding: 5px;
+    padding-top: 0;
+    background-image: linear-gradient(to bottom,#351b59bb , black);
+    height: 120px;
+    box-shadow: rgba(89, 47, 128, 0.397) 0px 7px 70px 0px,rgba(255, 255, 255, 0.281) 0px 2px 0px 0px;
+}
+li:hover {
+    font-size: 1.1em;
+}
+html {
+    height: 100%;
+}
+
+#inputt {
+    text-align: center;
+    transform: translateY(190px);
+}
+input {
+    min-width: 50vh;
+    min-height: 5vh;
+    max-width: 80vh;
+    max-height: 5vh;
+    border-radius: 15px;
+    text-indent: 50px;
+    border: none;
+    font-size: 1.2em;
+    font-family: monospace;
+    box-shadow: rgb(86, 50, 93) 4px 2px 0px 1px;
+    transition: 200ms ease;
+}
+input:hover {
+    scale: 1.1;
+}
+body {
+    background-color: black;
+}
+h1 {
+    color: #ffffff;
+    font-family: monospace;
+    font-weight: 500;
+    text-align: center;
+    font-size: 2.5em;
+    transform: translateY(70px);
+}
+p {
+    font-size: 1.1em;
+    text-align: center;
+    color: white;
+    font-family: "jetbrains";
+    transform: translateY(130px);
+}
+strong {
+    color: #5c2d9e;
+}
+#logo {
+    color: white;
+    display: flex;
+    position: absolute;
+    font-size: 2.3em;
+    font-family: "jetbrains";
+    margin-top: 5vh;
+    margin-left: 10vh;
+}
+button {
+    margin: 4vh;
+    background-color: #503477;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    border:none;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 400;
+    box-shadow: rgba(111, 47, 128, 0.39) 0px 7px 29px 0px,rgba(255, 255, 255, 0.993) 0px 2px 0px 0px;;
+    transition: 200ms ease-in-out;
+}
+#btn {
+    display: flex;
+    justify-content: center;
+    transform: translateY(35vh);
+
+}
+button:hover {
+    scale: 1.2;
+    background-color: #9051e9;
+    box-shadow: rgba(135, 60, 170, 0.562) 0px 7px 39px 0px,rgba(255, 255, 255, 0.993) 0px 2px 0px 0px;;
+}
+main {
+    height: 500px;
+    animation-name: geral;
+    animation-duration: 1.2s;
+    animation-timing-function: ease;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#baixeja {
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    font-family: monospace;
+    transform: translateY(100px);
+    margin-right: auto;
+    padding-left: 150px;
+    transition: 200ms ease;
+    display:block;
+}
+#baixeja:hover {
+    font-size:1.8em ;
+}
+.limark {
+    color: var(--cor2);
+}
+#mainhome {
+    display: flex;
+    align-items: start;
+}
+#container1 {
+    border-radius: 20px;
+    padding: 20px;
+    height: 500px;
+    width: 420px;
+    background-color: white;
+    margin-left: auto;
+    transition: 200ms ease;
+    position: absolute;
+    transform: translateX(650px);
+}
+#container1:hover {
+    scale: 1.1;
+    box-shadow: rgba(156, 106, 238, 0.233) 0px 30px 59px 0px; 
+}
+#COD3 {
+    color: #9051e9;
+    margin: 0;
+    padding: 0;
+    transform: translateY(10px);
+    font-family: 'jetbrains';
+    font-weight: 900;
+}
+#ctt {
+    display: flex;
+    justify-content: center;
+}
+#btnxrc{
+    transform: translateY(150px);
+}

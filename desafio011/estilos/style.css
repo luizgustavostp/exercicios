@@ -1,0 +1,39 @@
+@font-face {
+    font-family: sodosans;
+    src: url(../fontes/SoDoSans-Bold.ttf);
+}
+body{
+    font-family: sodosans;
+}
+img {
+    height: 48px;
+    width: 48px;
+    position: absolute;
+    display: inline-block;
+}
+ul {
+    display:inline-flex;
+}
+li {
+    margin-left: 40px;
+    list-style-type: none;
+    font-size: 0.9em;
+
+}
+#limenu {
+    margin-left: 50px;
+}
+a {
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+nav {
+    width: 1200px;
+    margin: auto;
+
+}
+a:hover {
+    color: rgb(0, 128, 58);
+    padding: 0px,0px,40px,40px;
+    box-shadow: inset,50px,50px,50px, black;
+}

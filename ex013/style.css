@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+nav {
+    background-color: gray;
+    height: 40px;
+}
+nav > a {
+    padding-left: 260px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.8em;
+
+}
+nav > a:hover {
+    color: red;
+}
+main {
+
+}
+main > h1 {
+    text-align: center;
+}
+main > p {
+    text-align: justify;
+}

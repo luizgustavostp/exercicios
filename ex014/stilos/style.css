@@ -1,0 +1,21 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+li {
+    margin-left: 40px;
+
+}
+img {
+    height: 60px;
+    width: 60px;
+}
+nav {
+    width: 500px;
+    margin: auto;
+    height:50px;
+}
