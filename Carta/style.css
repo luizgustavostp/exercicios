@@ -103,8 +103,8 @@ button {
 #fechar {
     transform: translateY(80px);
 }
-@media and (max-width: 410) {
+@media and (max-width: 410px) {
 * {
-    scale: 0.7
+    scale: 0.8
 }
 }
