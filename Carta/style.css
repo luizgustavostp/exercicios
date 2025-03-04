@@ -98,7 +98,7 @@ button {
     width: 100px;
     height: 50px;
     position: absolute;
-    bottom: 80px;
+    bottom: 50px;
 }
 #fechar {
     transform: translateY(80px);
