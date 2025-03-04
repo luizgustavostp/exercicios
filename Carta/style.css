@@ -43,14 +43,7 @@
     padding: 20px;
     font-family: sans-serif;
     font-size: 1.5em;
-    animation-name: carta;
-    animation-duration: 3s;
-    animation-delay: 3s;
-    animation-timing-function: ease;
-    outline: 2px solid gray;
-    animation-play-state: paused;
-    animation-direction: alternate;
-    animation-fill-mode: forwards;
+
     opacity: 0;
 }
 hr {
@@ -66,12 +59,42 @@ hr {
     z-index: 1;
     position: absolute;
     transform: translateY(50px);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+
+}
+.pagament {
     animation-name: pagament;
     animation-duration: 3s;
-    animation-play-state: paused;
+    animation-play-state: running;
     animation-direction: alternate;
     animation-fill-mode: forwards;
-
+}
+.pagament1 {
+    animation-name: pagament;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-play-state: running;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+.carta {
+    animation-name: carta;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-timing-function: ease;
+    outline: 2px solid gray;
+    animation-play-state: running;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+.carta1 {
+    animation-name: carta;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    outline: 2px solid gray;
+    animation-play-state: running;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
 }
 #abrir {
     position: absolute;
@@ -81,13 +104,23 @@ hr {
     border-bottom-left-radius: 250px;
     border-bottom-right-radius: 250px;
     background-color: rgb(68, 68, 68);
+
+}
+.abrircarta {
     animation-name: abrircarta;
     animation-duration: 3s;
-    animation-play-state: paused;
+    animation-play-state: running;
     animation-direction: alternate;
     animation-fill-mode: forwards;
 }
-
+.abrircarta1 {
+    animation-delay: 3s;
+    animation-name: abrircarta;
+    animation-duration: 3s;
+    animation-play-state: running;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+}
 body {
     display: flex;
     justify-content: center;
@@ -98,7 +131,7 @@ button {
     width: 100px;
     height: 50px;
     position: absolute;
-    bottom: 50px;
+    bottom: 80px;
 }
 #fechar {
     transform: translateY(80px);

@@ -4,10 +4,16 @@ const abrirr = document.getElementById("abrir")
 
 
 function abrir() {
-        papel.style.animationDirection = "normal"
-        carta.style.animationDirection = "normal"
-        abrirr.style.animationDirection = "normal"
-        papel.style.animationPlayState = "running"
-        carta.style.animationPlayState = "running"
-        abrirr.style.animationPlayState = "running"
+        if (papel.classList.contains = "carta1") {
+        papel.classList.remove("carta1")
+        carta.classList.remove("pagament1")
+        abrirr.classList.remove("abrircarta1")
+        // outro
+        papel.classList.add("carta")
+        carta.classList.add("pagament")
+        abrirr.classList.add("abrircarta")
+        }
 }
+
+
+
