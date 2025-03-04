@@ -98,16 +98,8 @@ button {
     width: 100px;
     height: 50px;
     position: absolute;
-    bottom: 200px;
+    bottom: 80px;
 }
 #fechar {
     transform: translateY(80px);
-}
-@media and (max-width: 600px) {
-* {
-    scale: 0.8;
-}
-button {
-    bottom: 50px;
-}
 }
